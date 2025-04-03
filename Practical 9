@@ -1,0 +1,16 @@
+class neha 
+{
+    int count = 5;
+    neha()
+    {
+        count++;
+        System.out.println(count);
+    }
+    public static void main (string [] args)
+    {
+        neha R1 = new neha();
+        neha R2 = new neha();
+        neha R3 = new neha();
+        
+    }
+}
